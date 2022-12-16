@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header section{
+    display: flex;
+    gap: 10px;
+    padding: 28px;
+    padding-left: 80px;
+}
+
+main{
+    background-color: aqua;
+    
+}
