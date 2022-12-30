@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 header section{
@@ -12,6 +15,38 @@ header section{
 }
 
 main{
-    background-color: aqua;
-    
+    background: linear-gradient(180deg, #B5B6F2 0%, #EFEFFF 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.item_1 {
+    background-color: #FFF;
+    padding: 30px 150px 30px 20px;
+    border-radius: 10px;
+}
+
+main section > section:first-child{
+    margin-bottom: 15px;
+}
+
+main section > form{
+    display: flex;
+    flex-direction: column;
+}
+
+main section > section > h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+main section > section > p{
+    font-weight: 400;
+    line-height: 40px;
+}
+
+main section > form > label{
+    line-height: 30px;
 }
