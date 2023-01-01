@@ -8,46 +8,128 @@
         <title>Drip_store</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
-            <section>
-                <img src="images/Vector.svg" alt="image digital college">
-                <h2>Digital Store</h2>
+            <section class="container">
+                <section class="header_item">
+                    <img src="images/Vector.svg" alt="image digital college">
+                    <h2>Digital Store</h2>
+                </section>
             </section>
         </header>
 
         <main>
-            <section class="item_1">
-                <section>
-                    <h1>Acesse sua Conta</h1>
-                    <p>Novo cliente? Então registre-se <a href="#">aqui</a>.</p>
+            <section class="container">
+                <section class="container_main">
+                    <section class="item_1">
+                        <section>
+                            <h1>Acesse sua Conta</h1>
+                            <p>Novo cliente? Então registre-se <a href="#">aqui</a>.</p>
+                        </section>
+                        <form action="">
+                            <label for="login">Login*</label>
+                            <input type="text" name="login" placeholder="Insira seu login ou email">
+            
+                            <label for="senha">Senha*</label>
+                            <input type="password" name="senha" id="senha" 
+                            placeholder="Insira sua senha">
+                        </form>
+        
+                        <a href="#" class="forget_password">Esqueci minha senha</a>
+        
+                        <a href="#" class="access_btn">Acessar Conta</a>
+        
+                        <section class="auth_login">
+                            <p>Ou faça login com</p>
+                            <a href="#"><img src="images/Original.svg"></img></a>
+                            <a href="#"><img src="images/gmail 1.svg"></img></a>
+                        </section>
+                    </section>
+                    <picture class="item_2">
+                        <img src="images/pexels-melvin-buezo-2529148 1.svg" alt="fly shoes front" class="img_left">
+                        <img src="images/pexels-melvin-buezo-2529148 2.svg" alt="fly shoes back" class="img">
+                    </picture>
                 </section>
-                <form action="">
-                    <label for="login">Login</label>
-                    <input type="text" name="login" placeholder="Insira seu login ou email">
-    
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha">
-                </form>
-
-                <a href="#">Esqueci minha senha</a>
-
-                <a href="#">Acessar Conta</a>
-
-                <section>
-                    <p>Ou faça login com</p>
-                    <a href="#"><i></i></a>
-                    <a href="#"><i></i></a>
-                </section>
-            </section>
-            <section class="item_2">
-                <img src="images/pexels-melvin-buezo-2529148 1.svg" alt="fly shoes front">
-                <img src="images/pexels-melvin-buezo-2529148 2.svg" alt="fly shoes back">
             </section>
         </main>
         <footer>
+            <section class="container">
+                <section>
+                    <i></i>
+                    <h2>Digital College</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt<br> ut labore et dolore.
+                    </p>
+                    <nav>
+                        <li>
+                            <a href="">
+                                <i></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i></i>
+                            </a>
+                        </li>
+                    </nav>
+                </section>
+                <section>
+                    <nav>
+                        <h4>Informações</h4>
+                        <li>
+                            <p>Sobre Drip Store</p>
+                        </li>
+                        <li>
+                            <p>Segurança</p>
+                        </li>
+                        <li>
+                            <p>Wishlist</p>
+                        </li>
+                        <li>
+                            <p>Blog</p>
+                        </li>
+                        <li>
+                            <p>Trabalhe conosco</p>
+                        </li>
+                        <li>
+                            <p>Meus Pedidos</p>
+                        </li>
+                    </nav>
+                </section>
+                <section>
+                    <nav>
+                        <h4>Categorias</h4>
+                        <li>
+                            <p>camisetas</p>
+                        </li>
+                        <li>
+                            <p>Calças</p>
+                        </li>
+                        <li>
+                            <p>Bonés</p>
+                        </li>
+                        <li>
+                            <p>Headphones</p>
+                        </li>
+                        <li>
+                            <p>Tênis</p>
+                        </li>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Contato</h4>
+                    <p>Av. Santos Dumont,<br> 1510 - 1 andar -<br> Aldeota, Fortaleza - <br> CE, 60150-161</p>
+                    <p>(85) 3051-3411</p>
+                </section>
+            </section>
             
         </footer>
     </body>
