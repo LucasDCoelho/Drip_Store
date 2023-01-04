@@ -173,11 +173,11 @@ footer > section:last-child > p{
 }
 
 #container_main > .item_2 > img{
-    width: 40%;
+    width: 100%;
 }
 
 #container_main > .item_2 > img:last-of-type{
-    transform: translateY(90px);
+    transform: translateY(95px);
 }
 
 #container_footer{
