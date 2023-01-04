@@ -114,6 +114,11 @@ footer > section:last-child > p{
     background-color: #47474710;
     border: 0;
     font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#container_main > .item_1 > .container_content_item_1 > form > input:focus{
+    outline: 1px solid #47474710;
 }
 
 #container_main > .item_1 > .container_content_item_1 > form > input::placeholder{
@@ -128,7 +133,7 @@ footer > section:last-child > p{
     color: #474747;
 }
 
-#container_main > .item_1 > .container_content_item_1 > a:last-of-type{
+#container_main > .item_1 > .container_content_item_1 > button:last-of-type{
     text-decoration: none;
     display: block;
     text-align: center;
@@ -139,6 +144,7 @@ footer > section:last-child > p{
     letter-spacing: 0.75px;
     padding: 5px;
     line-height: 30px;
+    border: 0;
 }
 
 #container_main > .item_1 > .container_content_item_1 > section:last-of-type{
