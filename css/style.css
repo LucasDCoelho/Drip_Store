@@ -111,7 +111,7 @@ footer > section:last-child > p{
 #container_main > .item_1 > .container_content_item_1 > form > input{
     padding: 12px;
     border-radius: 8px;
-    background-color: #47474704;
+    background-color: #47474710;
     border: 0;
     font-size: 12px;
 }
@@ -180,11 +180,16 @@ footer > section:last-child > p{
     padding: 73px 83px;
 }
 
-#container_footer > section:first-child > h2{
-    font-size: 37px;
+#container_footer > section:first-child > section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 44px;
-    display: inline-block;
+}
 
+#container_footer > section > section:first-child > h2{
+    font-size: 37px;
+    margin-left: 10px;
 }
 
 #container_footer > section:first-child > p{
@@ -216,8 +221,27 @@ footer > section:last-child > p{
     margin-bottom: 14px;
 }
 
+#container_footer > section > section > nav > ul > li > a{
+    position: relative;
+}
 
-#container_footer > section > h2,
+#container_footer > section > section > nav > ul > li > a::after{
+    content: " ";
+    height: 3px;
+    border-radius: 2px;
+    width: 0%;
+    background-color: #C92071;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.2s ease;
+}
+
+#container_footer > section > section > nav > ul > li > a:hover::after{
+    width: 100%;
+}
+
+#container_footer > section > section > h2,
 #container_footer > section > p,
 #container_footer > section > h4,
 #container_footer > section > section > nav > ul > li > a,
